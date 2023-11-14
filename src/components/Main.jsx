@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import videoBg from "../assets/videoBg.mp4"
-import sword from "../assets/sword.png"
+import sword from "../assets/sword2.png"
 
 const Main = () => {
 
@@ -378,8 +378,8 @@ const Main = () => {
         <div className='bg-stone-900 h-[210px] w-[850px] opacity-75 rounded-3xl pt-6 px-2 text-center relative '>
           <p className='h-[50px] text-3xl mb-[35px] font-cinzel'>"{quote.quote}"</p>
           <p className='text-xl  font-danc'>-{quote.author}</p>
-          <div className='absolute bottom-[-20px] left-[325px]'>
-            <img className='h-[100px] ' onClick={() => { roandomize() }} src={sword} alt="icon" />
+          <div className='absolute bottom-[10px] left-[330px]'>
+            <img className='h-[30px] ' onClick={() => { roandomize() }} src={sword} alt="icon" />
 
           </div>
 
